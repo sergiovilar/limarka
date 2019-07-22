@@ -61,7 +61,7 @@ jobs:
       - provider: script
         script: bin/build-docker.sh && bin/deploy-docker.sh
         on:
-          repo: abntex/limarka
+          repo: sergiovilar/limarka
           branches:
             only:
               - master
